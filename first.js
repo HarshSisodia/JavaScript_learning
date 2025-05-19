@@ -392,8 +392,156 @@
 // }
 
 //2nd way:-
+//modern Js:-
+// const arrowSum=(a,b)=>{
+//   return a+b;
+// }
+// console.log(arrowSum(3,4));
 
-const arrowSum=(a,b)=>{
-  return a+b;
-}
-console.log(arrowSum(3,4));
+// const arrowMul=(a,b)=>{
+//   return a*b;
+// }
+// console.log(arrowMul(3,4));
+
+
+// const printHello =()=>{
+//   console.log("hello");
+// }
+
+
+
+//1st Way:-
+// function vowels(S){
+//   S=S.toLowerCase();
+//   let count=0;
+// for(let i=0;i<S.length;i++){
+//   console.log(S.charAt(i));
+// if(S.charAt(i)==='a'||S.charAt(i)==='e'||S.charAt(i)==='i'||S.charAt(i)==='o'||S.charAt(i)==='u'){
+//      count++;
+//    }
+// }
+// console.log(count);
+// }
+// vowels("APNACOLLEGE");
+
+
+
+//2nd Way:-
+// const vowels=(S)=>{
+//   S=S.toLowerCase();
+//   let count=0;
+// for(let i=0;i<S.length;i++){
+//   console.log(S.charAt(i));
+// if(S.charAt(i)==='a'||S.charAt(i)==='e'||S.charAt(i)==='i'||S.charAt(i)==='o'||S.charAt(i)==='u'){
+//      count++;
+//    }
+// }
+// return(count);
+// }
+
+
+//ForEach:- It is a method
+// 1. to create a loop
+//2. CallBackFunction: here,it is a function to execute for each element in the array
+
+//A callBack is a Function passed as an argument to another function.
+//arr.forEach(callBackFunction){}
+
+//3.It is used for array not for string
+
+//ex:-
+// let arr=[1,2,4,5,6,5];
+// arr.forEach(function printVal(val){ //value at index
+//    console.log(val);
+// })
+
+//arrow function:-
+// let arr=["delhi","mumbai","Pune"];
+// arr.forEach((val,idx,arr)=>{
+//    console.log(val.toUpperCase(),idx,arr);
+// })
+
+
+//Q1.
+// what is higher order function(HOF or HOM):-
+// jo dusre function ko as a parameter le lete haine yaha phir kisi function ko return krte haine.
+
+//HOF & HOM is js  methods in which that either take another function as params inside them or they return another function as there outputs.
+
+
+//Q1.practice :- find squre
+// let arr=[1,2,3,4,5];
+//  arr.forEach((arr)=>{
+// console.log(arr*arr);
+
+//       //  for(let i=0;i<arr.length;i++){
+//       //       arr[i]*=arr[i];
+//       //  }
+//       //  return arr;
+//  })
+// let calSq =(arr)=>{
+// console.log(arr*arr);
+// };
+//  arr.forEach(calSq);
+
+// ArrayMethods:-
+// 1.Map:-creates a new array with the results of some operation.the value its callback returns are used to create the new array.
+
+// let arr=[1,2,3,4,5];
+// let newArr=arr.map((val)=>{
+//     return val**2;
+// })
+// console.log(newArr);
+
+//2. Filter:-creates a new array of element that give ture for a condition/filter.
+//eg.  all even elements
+//  let nums=[2,3,5,6,7,2,2,,6,7,63,3,5,8,0,4];
+// let newNums= nums.filter((val)=>{
+//    return val%2!==0;
+// })
+// console.log((newNums));
+
+
+//3.Reduce:-perform operations & reduces the array to a single value.it returns that single value.
+//  let nums=[2,3,5,4];
+// const output =nums.reduce((res,curr)=>{
+//    return res+curr;
+// });
+// console.log(output);
+
+//increasing and decreasing:-
+//  let nums=[2,3,5,6,7,2,2,,6,7,63,3,5,8,0,4];
+
+//  const output =nums.reduce((res,curr)=>{
+//    return res<curr ? res:curr;
+// });
+// console.log(output);
+
+
+// let marks=[87,93,64,99,95,91,85];
+// let newArr=marks.filter((val)=>{
+//   return val>90;
+// })
+// console.log(newArr);
+
+
+let n=prompt("enter a number : ");
+ let arr=[];
+ for(let i=1;i<=n;i++){
+  arr[i-1]=i;
+      
+ }
+console.log(arr);
+
+
+let sum =arr.reduce((res,curr) =>{
+    return res+curr;
+})
+console.log("sum = " + sum);
+
+
+
+let prod= arr.reduce((res,curr)=>{
+  return res*curr;
+})
+console.log("factorial = " +prod);
