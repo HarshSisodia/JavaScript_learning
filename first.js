@@ -545,3 +545,17 @@
 //   return res*curr;
 // })
 // console.log("factorial = " +prod);
+
+
+
+// WINDOW OBJECT :-
+//The window object represents an open window in a browser.it is browser's object(not js's)& automatically created by browser.
+//it is a global with lots of properties and methods.
+
+
+//What is DOM?
+//When a webpage is loaded,the browser creates a DOCUMENT OBJECT MODEL(DOM) OF THE PAGE.
+//It is use for dynamic changes and manipulation in are web page.
+
+//All html file is present in window->document.
+//console.dir(window.document); -->it shows properties and mehtods of document object.
