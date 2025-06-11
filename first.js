@@ -559,3 +559,41 @@
 
 //All html file is present in window->document.
 //console.dir(window.document); -->it shows properties and mehtods of document object.
+
+
+
+
+
+//DOM Manipulation:-
+//1.Selectiong with Id:- unique
+  //document.getElementbyId("myId")
+  
+  //2.Selecting with class:-HTML collection ->it is simillar to an array. 
+  //document.getElementbyClassName("myClass")
+
+  //3.Selecting with tag:-
+  //document.getElementByTagName("p")
+
+  //4.Query Selector:-
+  //4.1 document.querySelector("myId/myclass/tag")
+  //return first element
+
+  //4.2. document.querySelectorAll("myId/myClass/tag")
+  //returns a NodeList
+
+
+
+  //Properties:-
+
+  //1. tagName:- return tag for element nodes
+  //2. innerText:- returns the text content of the element and all its children
+  //3.inerHtml:- returns the plain text or HTML contents in the element
+  //4.textContent:- returns textual content even for hidden elements.
+
+
+  //NODES:-
+  //1.FirstNode
+  //2.LastNode
+  //3.textNode
+  //4.ElementNode
+  //5.commentNode
