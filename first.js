@@ -597,3 +597,23 @@
   //3.textNode
   //4.ElementNode
   //5.commentNode
+
+
+  //DOM Attributes:-
+  //1. getAttribute(attr)//to get the attribute value
+  //2.setAttribute(attr,value)//to set the attribute val th
+
+  //DOM Style:-
+  //1.node.style
+
+
+
+  //DOM Insert Element:-
+  //1.step1:-let el=document.createElement("div")
+    //1.1 node.append(el) //adds at the end of node(inside)
+    //1.2 node.prepend(el) //adds at the start of node(inside)
+    //1.3 node.before(el) //adds at the before of node(outside)
+    //1.4 node.after(el) //adds at the after of node(outside)
+  
+  //Delete Element:-
+   //1. node.remove() //removes the node

@@ -66,5 +66,47 @@
 // let id=div.getAttribute("id");
 // console.log(id);
  
-let para=document.querySelector("p");
-console.log(para.setAttribute("class","newClass"));
+// let para=document.querySelector("p");
+// console.log(para.setAttribute("class","newClass"));
+
+
+// let div=document.querySelector("div");
+// div.style.backgroundColor="green";
+// div.style.fontSize="26px";
+// div.innerText="hello";
+
+// let newBtn=document.createElement("button");
+// newBtn.innerText="click me!";
+// console.log(newBtn);
+
+
+// let div=document.querySelector("div");
+// div.append(newBtn);
+// div.prepend(newBtn);
+//div.before(newBtn);
+//div.after(newBtn);
+
+
+// let newHeading=document.createElement("h1")
+// newHeading.innerHTML="<i>Hi,I am new!</i>";
+// document.querySelector("body").prepend(newHeading);
+
+
+// let para=document.querySelector("p");
+// para.remove(); 
+// newHeading.remove();
+
+
+//Q1.
+// let newBtn=document.createElement("button");
+// newBtn.innerText="click Me!";
+// console.log(newBtn);
+// document.querySelector("body").prepend(newBtn);
+// newBtn.style.backgroundColor="red";
+// newBtn.style.color="white";
+
+
+//Q2.
+// let para=document.querySelector("p");
+// para.classList.add("newClass");
+// para.classList.remove("newClass");
