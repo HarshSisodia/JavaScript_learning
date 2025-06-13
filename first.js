@@ -619,7 +619,7 @@
    //1. node.remove() //removes the node
 
 
-   //EVENT IN JS:-
+   //EVENT IN JS:- 1. Inline Event Handling
 
    //The change in the state of an object is known as an Event 
    //Events are fired to notify code of "interesting changes" that may affect code execution.
@@ -628,4 +628,31 @@
    //2.Keyboard events(keypress,keyup,keydown)
    //3.Form events(submit etc)
    //4.Print event & many more 
+
+
+   //In JavaScript how to handle a event :-
+   //node.event=()=>{
+    //handle here
+    //}
+
+    //if we are handle with both inline and js  handling so firstlt preference is to handle js code.
+    //if event run one time and we made same event 2nd time then its overwrite. 
+   
     
+    //2.EVENT OBJECT:-
+
+  //it is a special object that has details about the event.
+  //All event handlers have access to the event object's properties and methods.
+
+  //node.event=(e)=>{  e--> is a argument
+    //handle here
+  //}
+
+  //e.target,e.type,e.clientX,e.clientY 
+
+//3.Event Listeners:-
+//node.addEventListener(event,callback) callback:- function and handler
+//node.removeEventListener(event,callback)
+// * the callback reference should be same to remove
+
+

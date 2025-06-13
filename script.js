@@ -109,4 +109,104 @@
 //Q2.
 // let para=document.querySelector("p");
 // para.classList.add("newClass");
-// para.classList.remove("newClass");
+// para.classList.remove("newClass"); 
+
+// let btn1=document.querySelector("#btn1");
+// btn1.onclick=(e)=>{
+//     console.log(e);
+//     console.log(e.type);
+//     console.log(e.target);
+//     console.log(e.clientX,e.clientY);
+//     // console.log("btn1 was Clicked");
+//     // let a =25;
+//     // a++;
+//     // console.log(a);//26
+// };
+//  btn1.addEventListener("click",(e)=>{
+//       console.log("button1 was clicked-handler1");
+    
+//  })
+
+// btn1.addEventListener("click",()=>{
+//       console.log("button1 was clicked -handler2");
+//  })
+ 
+//  btn1.addEventListener("click",()=>{
+//       console.log("button1 was clicked-handler3");
+    
+//  })
+
+//  const handler4=()=>{
+//       console.log("button1 was clicked-handler4");
+    
+//  }
+//  btn1.addEventListener("click",handler4);
+
+//  btn1.removeEventListener("click",handler4);
+
+// let box=document.querySelector("div");
+// box.onmouseover =(e)=>{
+//     console.log(e);
+//     console.log(e.type);
+//     console.log(e.target);
+//     console.log(e.clientX,e.clientY);
+// //     console.log("you are inside div");
+// //     let a=25;
+// //     a++;
+// //     console.log(a);//26
+// };
+
+
+//Q1.click:-
+// let newBtn=document.createElement("button");
+// newBtn.innerText="Change Mode!";
+// document.querySelector("body").prepend(newBtn);
+// let body=document.querySelector("body");
+// let btn=document.querySelector("button");
+// let currMode="light";//change dark
+// btn.addEventListener("click",()=>{
+//     // console.log("you are trying to change mode");
+//       if(currMode==="light"){
+//         currMode="dark";
+//         body.classList.add("dark");
+//         body.classList.remove("light");
+
+//       }
+//       else{
+//         currMode="light";
+//           body.classList.add("light");
+//           body.classList.remove("dark");
+//       }
+//       console.log(currMode);
+// })
+
+
+//Q2.Mouseover:-
+//div make:
+// let newDiv=document.createElement("div");
+// newDiv.innerHTML="<i>Over Me!</i>";
+// document.querySelector("body").prepend(newDiv);
+
+// //select:
+// let body=document.querySelector("body");
+// let div=document.querySelector("div");
+// let currMode="light";
+// div.addEventListener("mouseover",()=>{
+//     // console.log("you are trying to change mode");
+//     if(currMode==="light"){
+//         currMode="dark";
+//         body.classList.add("dark");
+//         body.classList.remove("light");
+//     }
+//     else{
+//         currMode="light";
+//           body.classList.add("light");
+//           body.classList.remove("dark");
+//       }
+//       console.log(currMode);
+// })
+
+
+
+
+
